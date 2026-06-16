@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 12px;
+}
+.nav-logo{
+    background-color: black;
+    width: 20px;
+    border-radius: 12px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 300px;
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
